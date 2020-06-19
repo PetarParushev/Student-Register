@@ -104,7 +104,7 @@ export default {
             const formData = {
                 firstName: this.student.firstName,
                 lastName: this.student.lastName,
-                facultyNumber: this.student.facultyNumber,
+                facultyNumber: parseInt(this.student.facultyNumber),
                 nationality: this.student.nationality,
                 faculty: this.student.faculty
             }
